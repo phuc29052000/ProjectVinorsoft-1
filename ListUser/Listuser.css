@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.title p {
+    height: 36px;
+    width: 306px;
+    left: 296px;
+    top: 104px;
+    border-radius: nullpx;
+    position: absolute;
+    width: 306px;
+    height: 36px;
+    left: 296px;
+    top: 104px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: red;
+}
+
+.noidung {
+    position: absolute;
+    width: 1104px;
+    height: 853px;
+    left: 296px;
+    top: 156px;
+    background: #252C40;
+    border-radius: 12px
+}
+
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+
+.click1 {
+    padding: 15px 90px 15px 10px;
+    margin: 0px 20px 0px 0px;
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 3px;
+    background: #252C40;
+    color: #fff;
+    cursor: pointer;
+}
+
+.adduser {
+    background: #35DA7F;
+    border-radius: 4px;
+    padding: 10px 0px;
+    width: 129px;
+}
+
+.adduser text {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 44px 12px 12px;
+    cursor: pointer;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+table {
+    width: 100%;
+}
+
+table, th, td{
+    padding: 10px;
+}
+
+thead th {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+

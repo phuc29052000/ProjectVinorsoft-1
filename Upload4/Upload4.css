@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.bk_chonupload {
+    height: 1042px;
+    width: 1440px;
+    background: #1C2131;
+    margin: auto;
+}
+
+.da_upload {
+    height: 1042px;
+    width: 1440px;
+    background: #1C2131;
+    margin: auto;
+}
+
+.bk_da_upload {
+    width: 100%;
+    height: 80px;
+      background: #252C40;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.list_upload {
+    display: flex;
+    justify-content: space-between;
+}
+
+.da_uploadleft {
+    display: flex;
+    height: 40px;
+    width: 190px;
+    margin: 20px 0px 20px 40px;
+}
+
+.da_uploadleft img {
+    height: 35.55555725097656px;
+    width: 35.55555725097656px;
+    margin: 0px 12px 0px 0px;
+}
+
+.da_uploadleft p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 8px 0px;
+}
+
+.da_uploadright {
+    display: flex;
+    
+
+}
+
+.logo2 {
+    height: 18px;
+    width: 24px;
+    margin: 31px 0px;
+}
+
+.language {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 52px;
+    height: 24px;
+    margin: 28px 0px 28px 8px;
+}
+
+.dropdown {
+    height: 7px;
+    width: 12px;
+    margin: 38px 18px 38px 10px;
+
+}
+
+.notification {
+    width: 40px;
+    height: 40px;
+    margin: 20px 0px;
+
+}
+
+.setting {
+    height: 40px;
+    width: 40px;
+    margin: 20px 0px;
+}
+
+.name {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 28px 8px 28px 27px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin: 20px 40px 20px 0px;
+}
+
+
+.bk_da_uploadcenter {
+    width: 540px;
+    height: 415px;
+    background: #2B334C;
+    border-radius: 12px;
+    margin: 250px 450px 334px 450px;
+}
+
+.click_field {
+    width: 460px;
+    height: 335px;
+    padding: 40px;
+  
+}
+
+.title_field p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.listtich {
+    display: flex;
+}
+
+.tichxanh1 {
+    width: 152px;
+    height: 3px;
+    background: #35DA7F;
+    border-radius: 2px;
+    margin: 24px 2px 0px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.tichxanh2 {
+    width: 152px;
+    height: 3px;
+    background: #35DA7F;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 24px 2px 0px 0px;
+}
+
+.tichxanh3 {
+    width: 152px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+    margin: 24px 0px 0px 0px;
+}
+
+.click_content1 p{
+    margin: 24px 0px 8px 0px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.content_language {
+    position: relative;
+}
+
+.content_language .input_language1 {
+    box-sizing: border-box;
+    width: 460px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 12px 0px 12px 12px;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.content_language .note1{
+    position: absolute;
+    top:12px;
+    left: 424px;
+  
+}
+
+
+.click_content2 p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 24px 0px 8px 0px;
+}
+
+.content_language {
+    position: relative;
+}
+
+.content_language .input_language2 {
+    box-sizing: border-box;
+    width: 460px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 12px 0px 12px 48px;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.content_language .file_word {
+    position: absolute;
+    top: 10px;
+    
+}
+
+
+.button_convert {
+    margin: 24px 0px 0px 0px;
+    width: 460px;
+    height: 48px;
+    background: #35DA7F;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}

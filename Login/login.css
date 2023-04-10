@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background {
+    position: absolute;
+    left: 200px;
+}
+
+.backgroundleft {
+    background-image: url('./img/Rectangle\ 5912.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1096px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.siuu {
+    display: flex;
+}
+
+.khung1 {
+    margin: 40px 0px 0px 40px;
+    width: 244px;
+    height: 196px;
+    width: 244px;
+    height: 196px;
+    background: rgba(28, 33, 49, 0.8);
+    backdrop-filter: blur(7.5px);
+    border-radius: 24px;
+}
+
+.khung2 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 90px;
+    top: 30px;
+    background: #000000;
+    border-radius: 24px
+}
+
+
+
+
+.noidung1 {
+    width: 184px;
+    height: 28px;
+    padding: 1.48px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    top: 108px;
+}
+.noidung2 {
+    width: 146px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 55px;
+    top: 135px;
+}
+
+.khung3 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 300px;
+    top: 100px;
+    background: #1C2131;
+    border-radius: 16px;
+}
+
+.khung3 .icon2 {
+    border: 1.5px solid #35DA7F;
+    position: absolute;
+    left: 20.83%;
+    right: 20.83%;
+    top: 20.83%;
+    bottom: 20.83%;
+}
+
+.content {
+    margin-right: 20px;
+}
+
+.background2 {
+    position: absolute;
+    width: 580px;
+    height: 960px;
+    left: 860px;
+    top: 0px;
+    background: #000000;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.backgroundloginleft {
+    background-image: url('./img/Rectangle\ 5898.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 580px;
+    height: 870px;
+    left: 0px;
+    top: 81px;
+}
+
+.icon3 {
+    height: 49.77777862548828px;
+    width: 49.77777862548828px;
+    left: 3.111328125px;
+    top: 3.111328125px;
+    border-radius: 3px;
+    position: absolute;
+    left: 44%;
+    right: 5.56%;
+    top: 5.56%;
+    bottom: 5.56%;
+    background: #43D685;
+}
+
+img {
+    height: 19.568893432617188px;
+    width: 19.568893432617188px;
+    left: 11.99365234375px;
+    top: 18.2158203125px;
+    border-radius: 0px;
+    position: absolute;
+    left: 21.42%;
+    right: 43.64%;
+    top: 32.53%;
+    bottom: 32.53%;
+}
+
+h2 {
+    width: 212px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 186px;
+    top: 120px;
+    cursor: pointer;
+}
+
+.title3 {
+    width: 386px;
+    cursor: pointer;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    margin: 0px 97px;
+}
+
+
+.Name input {
+    height: 48px;
+    width: 386px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 100px;
+    top: 202px;
+    padding: 20px;
+}
+
+.Pass input {
+    height: 48px;
+    width: 386px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 100px;
+    top: 270px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.siuu1 {
+    /* background-color: red; */
+    display: flex;
+    margin:340px 0px 0px 40px;
+}
+
+.siuu1 .check {
+    margin: 0px 0px 0px 5px;
+    width: 111px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    flex: none;
+    order: 1;
+    cursor: pointer;
+    flex-grow: 0;
+}
+
+.listsave {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.siuu1 .remember {
+    font-family: 'Source Sans Pro';
+    padding: 0px 30px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #35DA7F;
+    cursor: pointer;
+}
+
+
+
+.loginn button{
+    width: 79px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+    width: 386px;
+    height: 48px;
+    background: #35DA7F;
+    border-radius: 4px;
+    margin: 15px 0px 0px 98px;
+    cursor: pointer;
+    border: none;
+}
+
+.listt {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin: 385px  0px 0px 0px;
+}
+
+.listt .zero {
+    width: 126px;
+    height: 24px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.listt .register {
+    width: 70px;
+    height: 24px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #35DA7F; 
+    cursor: pointer;
+}
+

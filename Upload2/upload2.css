@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.dang_upload {
+    width: 1440px;
+    height: 1042px;
+    background: #1C2131;
+    margin: auto;
+}
+
+.header_upload {
+    width: 100%;
+    height: 80px;
+    background: #252C40;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.background_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoright {
+    width: 190px;
+    height: 40px;
+    display: flex;
+    margin: 20px 0px 20px 40px;
+}
+ 
+
+.content_logo {
+    height: 24px;
+    width: 138px;
+    border-radius: nullpx;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 8px 0px 8px 12px;
+}
+
+.contentright {
+    display: flex;
+    height: 80px;
+
+}
+
+.logo2 {
+    width: 24px;
+    height: 18px;
+    margin: 31px 8px 31px 0px;
+}
+
+.content_right {
+    margin: 28px 10px 28px 0px;
+    width: 52px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.dropdown {
+    /* background: rgba(255, 255, 255, 0.25); */
+    height: 7px;
+    width: 12px;
+    margin: 38px 18px 35px 0px;
+}
+
+.chuong {
+    margin: 20px 0px;
+    width: 40px;
+    height: 40px;
+    background: #252C40;
+    border-radius: 30px;
+}
+
+.setting {
+    margin: 20px 16px 20px 0px;
+    width: 40px;
+    height: 40px;
+    background: #252C40;
+    border-radius: 30px;
+}
+
+.name {
+    margin: 28px 8px 28px 0px;
+    width: 144px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin: 20px 40px 20px 0px;
+}
+
+
+
+.center_upload {
+    width: 540px;
+    height: 455px;
+    background: #2B334C;
+    border-radius: 12px;
+    margin: 293px 450px 294px 450px;
+}
+
+.list_filed {
+    width: 460px;
+    height: 375px;
+    padding: 40px;
+}
+
+.title_upload {
+    width: 460px;
+    height: 36px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.list_xanh {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px 0px 40px;
+}
+
+.list_thanh {
+    width: 152px;
+    margin: 0px 2px 0px 40px;
+    height: 3px;
+    background: #35DA7F;
+    border-radius: 2px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+}
+
+.list_thanh1 {
+    width: 152px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin-right: 2px;
+}
+
+.list_thanh2 {
+    width: 152px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+
+.content_field {
+    margin:  24px 0px 0px 0px;
+    box-sizing: border-box;
+    height: 216px;
+    width: 460px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.close {
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 12px 12px 0px 416px;
+}
+
+.uploadd {
+    background-image: url('./img/Upload.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 68px;
+    width: 68px;
+    margin: 0px 196px;
+}
+
+.uploadd p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 21.33px 17.67px 22.67px 16.33px;
+}
+
+.uploadd1 p {
+    margin: 21.33px 138px 4px 138px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.uploadd2 p {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.background_button_click {
+    width: 460px;
+    height: 48px;
+    opacity: 0.4;
+    border-radius: 4px;
+    margin-top: 24px;
+    background: #35DA7F;
+    
+}
+
+.background_button_click button {
+    width: 460px;
+    height: 48px;
+    background: #35DA7F;
+    opacity: 0.4;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.name_button {
+    width: 68px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 12px 196px;
+}

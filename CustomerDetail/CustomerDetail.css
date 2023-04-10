@@ -1,0 +1,463 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background_customer {
+    width: 1200px;
+    height: 1024px;
+     background: #1D2123;
+    margin: auto;
+}
+
+.header_customer {
+    display: flex;
+    padding: 24px 0px 0px 40px;
+}
+
+.header_customer .contentheader_customer {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 12px;
+}
+
+.all_inforcustomer {
+    display: flex;
+}
+
+.background_rightcustomer {
+    background: #252C40;
+    border-radius: 12px;
+    width: 352px;
+    height: 368px;
+    margin: 30px 24px 0px 40px;
+}
+
+.background_customerleft {
+    padding: 24px 0px 0px 24px;
+}
+
+.customer {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.background_imgleftcustomer .avatar {
+    margin: 0px 12px 0px 0px;
+}
+
+.contentright_customer .content1_customer{
+    margin: 10px 0px 0px 0px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.contentright_customer .content2_customer{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    color: rgba(255, 255, 255, 0.4);
+    
+}
+
+.background_customerbot {
+    width: 304px;
+    height: 48px;
+    margin: 0px 0px 0px 24px;
+}
+
+.systemaccount_customer {
+    display: flex;
+    width: 304px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.systemaccount_customer .account_customer{
+    width: 24px;
+    height: 24px;
+    margin: 12px 8px 12px 12px;
+}
+
+.systemaccount_customer .content_account{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 12px 0px;
+}
+
+.number_account {
+    display: flex;
+    width: 304px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.number_account .number_use {
+    width: 24px;
+    height: 24px;
+    margin: 12px 8px 12px 12px;
+}
+
+.number_account .content_numberuse {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 12px 0px;
+}
+
+.password_account {
+    display: flex;
+    width: 304px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.password_account .change_password {
+    width: 24px;
+    height: 24px;
+    margin: 12px 8px 12px 12px;
+}
+
+.password_account .content_change_password {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 12px 0px;
+}
+
+.ban_account {
+    display: flex;
+    width: 304px;
+    height: 48px;
+}
+
+.ban_account .ban_imgaccount{
+    width: 24px;
+    height: 24px;
+    margin: 12px 8px 12px 12px;
+}
+
+.ban_account .content_bandacount {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F25B60;
+    margin: 12px 0px;
+}
+
+.background_customerright {
+    width: 727px;
+    height: 560px;
+    background: #252C40;
+    margin: 30px 0px 0px 0px;
+    border-radius: 12px;
+}
+
+.header_customerdetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_customerdetail .content_inforcustomer {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 24px 0px 28px 24px;
+}
+
+.header_customerdetail .active {
+    width: 65px;
+    height: 32px;
+    background: rgba(67, 214, 133, 0.1);
+    border-radius: 60px;
+    margin: 28px 24px 0px 0px;
+    padding: 4px 12px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #35DA7F;
+
+}
+
+.line {
+    width: 727px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.background_center_customerdetail {
+    display: flex;
+}
+
+.imgdetail_customer {
+    position: relative;
+    margin-right: 57px;
+}
+
+.imgdetail_customer .avatar_customer {
+    height: 136px;
+    width: 136px;
+    margin: 24px 0px 0px 24px;
+    cursor: pointer;
+     
+}
+
+.imgdetail_customer .upload_img {
+    position: absolute;
+    left: 116px;
+    top: 118px;
+    cursor: pointer;
+}
+
+.name_customerdetail {
+    display: flex;
+    margin: 24px 0px 16px 0px;
+}
+
+.name_customerdetail .name_customer{
+    width: 115px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 38px;
+}
+
+.name_customerdetail .name_customer1{
+    width: 111px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.email_customerdetail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.email_customerdetail .email_customer {
+    width: 115px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 38px;
+}
+
+.email_customerdetail .nameemail_customer1{
+    width: 114px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.phone_customerdetail {
+    display: flex;
+    margin-bottom: 16px;
+}
+.phone_customerdetail .phone_customer {
+    width: 95px;
+    height: 24px;
+    left: 0px;
+    top: 80px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 58px;
+}
+
+.phone_customerdetail .numberphone_customer1 {
+    width: 89px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.gender_customerdetail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.gender_customerdetail .gender_customer {
+    width: 61px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 92px;
+}
+
+.gender_customerdetail .mygender_customer1 {
+    width: 34px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.dateofbirth_customerdetail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.dateofbirth_customerdetail .dateofbirth_customer {
+    width: 72px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 81px;
+}
+
+.dateofbirth_customerdetail .dateofbirth_customer1 {
+    width: 82px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nation_customerdetail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.nation_customerdetail .nation_customer {
+    width: 65px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 88px;
+}
+
+.nation_customerdetail .namenation_customer1 {
+    width: 66px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.location_customerdetail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.location_customerdetail .location_customer {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 121px;
+}
+
+.location_customerdetail .namelocation_customer1 {
+    width: 129px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.number_use_customerdetail {
+    display: flex;
+}
+
+.number_use_customerdetail .number_use_customer{
+    width: 110px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 43px;
+}
+
+.number_use_customerdetail .nameuse_customer1 {
+    width: 27px;
+    height: 24px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
